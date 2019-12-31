@@ -3,8 +3,6 @@
         <h1>You have selected {{ $route.params.name }}</h1>
         <img :src="getImgUrl($route.params.name)">
 
-
-
     </div>
 </template>
 

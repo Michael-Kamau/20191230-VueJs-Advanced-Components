@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021aabae-4335-438d-acfe-a9f5f3361222" name="Default Changelist" comment="" />
+    <list default="true" id="021aabae-4335-438d-acfe-a9f5f3361222" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/017bbca517b1ab1ab0ff2b933f40a1b6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/017bbca517b1ab1ab0ff2b933f40a1b6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/178eaf293ff1b1a51209515706d8ef06.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/178eaf293ff1b1a51209515706d8ef06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/905ac8c1c12c6e5dab8baabbe77d7716.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/905ac8c1c12c6e5dab8baabbe77d7716.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e698e62c6549b05b3f13f457e2eb7c71.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e698e62c6549b05b3f13f457e2eb7c71.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f5add4ab74b9610afe768983d69d761b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f5add4ab74b9610afe768983d69d761b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VgnnROn21qaM5PocRxkSB6iRev" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -61,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577683771460</updated>
-      <workItem from="1577683773604" duration="24223000" />
+      <workItem from="1577683773604" duration="25795000" />
     </task>
     <servers />
   </component>

@@ -3,26 +3,33 @@
     <!-- Your HTML goes here -->
     <div class="home">
         <h1>Products</h1>
-        <div>
-            <router-view></router-view>
-            <table>
-                <thead>
-                <tr>
-                    <th>Product</th>
-                    <th>Amount</th>
-                    <th>Action</th>
-                </tr>
-                </thead>
-                <tr v-for="product in products" :key="product.id">
-                    <td>{{product.name}}</td>
-                    <td>{{product.amount}}</td>
-                    <td><CustomButton v-bind:product="product.id" v-on:view-product="$emit('view-product',product.id)">
+        <div class="container">
+
+
+            <div class="mytable">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tr v-for="product in products" :key="product.id">
+                        <td>{{product.name}}</td>
+                        <td>{{product.amount}}</td>
+                        <td><CustomButton v-bind:product="product.id" v-on:view-product="$emit('view-product',product.id)">
                         <span>
                             <router-link  v-bind:product="product" :to="`/products/product/`+ product.name">View {{product.name}}</router-link>
                         </span>
-                    </CustomButton></td>
-                </tr>
-            </table>
+                        </CustomButton></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="myProduct">
+                <router-view></router-view>
+            </div>
         </div>
     </div>
 </template>
@@ -83,11 +90,22 @@
 
     table {
         border-collapse: collapse;
-        width: 50%;
+        width: 100%;
     }
 
     th, td {
         padding: 15px;
     }
+
+    .container{
+        display: flex;
+    }
+    .mytable{
+        width:50%;
+    }
+    .myProduct{
+        margin:20px;
+    }
+
 
 </style>

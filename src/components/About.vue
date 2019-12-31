@@ -2,6 +2,7 @@
   <div class="about">
 
     <button v-on:click="toggle">{{action}}</button>
+
     <keep-alive>
       <component v-bind:is="component" />
     </keep-alive>
@@ -14,11 +15,13 @@
 <script>
   import Dynamic1 from "./Dynamic1";
   import Dynamic2 from "./Dynamic2";
+  import CustomButton from "./CustomButton";
 export default {
   name: 'about',
   components:{
     Dynamic1,
-    Dynamic2
+    Dynamic2,
+    CustomButton
   },data (){
     return {
       component:"Dynamic2",
@@ -42,5 +45,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-
+button{
+  padding:10px 20px;
+  margin: 30px 10px;
+}
 </style>
